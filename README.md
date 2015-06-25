@@ -3,6 +3,7 @@
 Not sure whether you're ready to jump in to the next GDI class? We have a variety of self-assessments to see if you're ready for what we're teaching.
 
 ## Intro to Sass
+[Link to the Intro to Sass self assessment](http://gdibtv.github.io/gdibtv-self-assessments/intro-to-sass/)
 
 To get the most out of this class, you should have a working knowledge of HTML & CSS. You may have taken Intro to HTML or HTML5/CSS3 through Girl Develop It, and have built your own site or already build websites regularly. You're comfortable with writing CSS already and are ready to take your skills to the next level. 
 
