@@ -1,13 +1,17 @@
+var configs = {
+    "classUrl": "http://www.meetup.com/Girl-Develop-It-Burlington/events/103820282/",
+    "chapterUrl": "http://www.meetup.com/Girl-Develop-It-Burlington/#upcoming"
+}
 var quizJSON = {
     "info": {
         "name":    "Intro to Sass Pre-Class CSS Assessment",
-        "main":    "<p>This quiz is to evaluate your CSS knowledge for the <a target='_blank' href='http://www.meetup.com/Girl-Develop-It-Burlington/events/103820282/'>GDI Burlington Intro to Sass class</a>.</p>",
+        "main":    "<p>This quiz is to evaluate your CSS knowledge for the <a target='_blank' href='"+configs.classUrl+"'>GDI Burlington Intro to Sass class</a>.</p>",
         "results": "<h5>More CSS Resources</h5><ul><li><a target='_blank' href='http://girldevelopit.com/materials'>Girl Develop It Course Materials</a></li><li><a target='_blank' href='https://developer.mozilla.org/en-US/docs/CSS'>Mozilla Developer Network CSS Tutorials</a></li><li><a target='_blank' href='http://css-tricks.com/'>CSS-Tricks</a> for Demos, Tips, and Code Snippets</li></ul>",
-        "level1":  "You're ready to take your CSS chops to the next level with Sass - <a target='_blank' href='http://www.meetup.com/Girl-Develop-It-Burlington/events/103820282/'>go sign up</a>!",
-        "level2":  "You're ready to take your CSS chops to the next level with Sass - <a target='_blank' href='http://www.meetup.com/Girl-Develop-It-Burlington/events/103820282/'>go sign up</a>!",
-        "level3":  "You should brush up on your CSS skills before taking them to the next level with Sass - we want you to be comfortable using CSS while learning all the new Sass-y stuff. Check out <a target='_blank' href='http://www.meetup.com/Girl-Develop-It-Burlington/#upcoming'>upcoming Girl Develop It classes</a> or review the <a target='_blank' href='http://girldevelopit.com/materials'>class materials</a> to beef up your skills.",
-        "level4":  "You should brush up on your CSS skills before taking them to the next level with Sass - we want you to be comfortable using CSS while learning all the new Sass-y stuff. Check out <a target='_blank' href='http://www.meetup.com/Girl-Develop-It-Burlington/#upcoming'>upcoming Girl Develop It classes</a> or review the <a target='_blank' href='http://girldevelopit.com/materials'>class materials</a> to beef up your skills.",
-        "level5":  "You should brush up on your CSS skills before taking them to the next level with Sass - we want you to be comfortable using CSS while learning all the new Sass-y stuff. Check out <a target='_blank' href='http://www.meetup.com/Girl-Develop-It-Burlington/#upcoming'>upcoming Girl Develop It classes</a> or review the <a target='_blank' href='http://girldevelopit.com/materials'>class materials</a> to beef up your skills."
+        "level1":  "You're ready to take your CSS chops to the next level with Sass - <a target='_blank' href='"+configs.classUrl+"'>go sign up</a>!",
+        "level2":  "You're ready to take your CSS chops to the next level with Sass - <a target='_blank' href='"+configs.classUrl+"'>go sign up</a>!",
+        "level3":  "You should brush up on your CSS skills before taking them to the next level with Sass - we want you to be comfortable using CSS while learning all the new Sass-y stuff. Check out <a target='_blank' href='"+configs.chapterUrl+"'>upcoming Girl Develop It classes</a> or review the <a target='_blank' href='http://girldevelopit.com/materials'>HTML/CSS class materials</a> to beef up your skills.",
+        "level4":  "You should brush up on your CSS skills before taking them to the next level with Sass - we want you to be comfortable using CSS while learning all the new Sass-y stuff. Check out <a target='_blank' href='"+configs.chapterUrl+"'>upcoming Girl Develop It classes</a> or review the <a target='_blank' href='http://girldevelopit.com/materials'>HTML/CSS class materials</a> to beef up your skills.",
+        "level5":  "You should brush up on your CSS skills before taking them to the next level with Sass - we want you to be comfortable using CSS while learning all the new Sass-y stuff. Check out <a target='_blank' href='"+configs.chapterUrl+"'>upcoming Girl Develop It classes</a> or review the <a target='_blank' href='http://girldevelopit.com/materials'>HTML/CSS class materials</a> to beef up your skills."
     },
     "questions": [
         { // Question 1

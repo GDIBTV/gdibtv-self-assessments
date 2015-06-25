@@ -10,7 +10,12 @@
         <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="slickQuiz" role="main">
+        <header>
+            <div class="container">
+                <img src="../img/girl-develop-it.png" alt="Girl Develop It" class="logo">
+            </div>
+        </header>
+        <main id="slickQuiz" role="main" class="container">
             <h1 class="quizName"><!-- where the quiz title goes --></h1>
 
             <div class="quizArea">
@@ -32,18 +37,26 @@
                     <!-- where the quiz result copy goes -->
                 </div>
             </div>
-        </div>
-            <footer>
-                <nav>
-                    <a href="http://girldevelopit.com/chapters/philadelphia" title="Girl Develop It Burlington">Girl Develop It Burlington</a>
-                    <a href="http://www.meetup.com/Girl-Develop-It-Philadelphia/events/103820282/" title="Intro to Sass Signup">Sign up for Intro to Sass</a>
-                    <a href="mailto:burlington@girldevelopit.com" title="Contact Us">Contact Us</a>
-                    <a href="https://www.girldevelopit.com/chapters" title="Find a GDI Chapter">Not in Burlington? Find your nearest GDI chapter!</a>
-                </nav>
-            </footer>
+        </main>
+        <footer>
+            <nav class="container">
+                <ul>
+                    <li><a href="http://girldevelopit.com/chapters/burlington" title="Girl Develop It Burlington">Girl Develop It Burlington</a></li>
+                    <li><a href="mailto:burlington@girldevelopit.com" title="Contact Us">Contact Us</a></li>
+                    <li><a href="https://www.girldevelopit.com/chapters" title="Find a GDI Chapter">Not in Burlington? Find a GDI chapter near you!</a></li>
+                </ul>
+            </nav>
+        </footer>
         <script src="../slickquiz/js/jquery.js"></script>
         <script src="intro-to-sass-quiz.js"></script>
         <script src="../slickquiz/js/slickQuiz.js"></script>
-        <script src="../slickquiz/js/master.js"></script>
+        <script>
+            $(function () {
+                $('#slickQuiz').slickQuiz({
+                    randomSortQuestions: true,
+                    randomSortAnswers: true
+                });
+            });
+        </script>
     </body>
 </html>
