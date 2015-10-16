@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+        <title>CSS Quiz for Girl Develop It Burlington Intermediate HTML and CSS</title>
+
+        <link href="../slickquiz/css/reset.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="../slickquiz/css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="../img/girl-develop-it.png" alt="Girl Develop It" class="logo">
+            </div>
+        </header>
+        <main id="slickQuiz" role="main" class="container">
+            <h1 class="quizName"><!-- where the quiz title goes --></h1>
+
+            <div class="quizArea">
+                <div class="quizHeader">
+                    <!-- where the quiz main copy goes -->
+
+                    <a class="button startQuiz" href="">Get Started!</a>
+                </div>
+
+                <!-- where the quiz gets built -->
+            </div>
+
+            <div class="quizResults">
+                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+
+                <h3 class="quizLevel"><strong>Your Result:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+                <div class="quizResultsCopy">
+                    <!-- where the quiz result copy goes -->
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav class="container">
+                <ul>
+                    <li><a href="http://girldevelopit.com/chapters/burlington" title="Girl Develop It Burlington">Girl Develop It Burlington</a></li>
+                    <li><a href="mailto:burlington@girldevelopit.com" title="Contact Us">Contact Us</a></li>
+                    <li><a href="https://www.girldevelopit.com/chapters" title="Find a GDI Chapter">Not in Burlington? Find a GDI chapter near you!</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="../slickquiz/js/jquery.js"></script>
+        <script src="intermediate-html-css-quiz.js"></script>
+        <script src="../slickquiz/js/slickQuiz.js"></script>
+        <script>
+            $(function () {
+                $('#slickQuiz').slickQuiz({
+                    randomSortQuestions: true,
+                    randomSortAnswers: true
+                });
+            });
+        </script>
+    </body>
+</html>
