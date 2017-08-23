@@ -1,5 +1,5 @@
 var configs = {
-    "classUrl": "https://www.meetup.com/Girl-Develop-It-Burlington/events/235701830/",
+    "classUrl": "https://www.meetup.com/Girl-Develop-It-Burlington/events/242767452/",
     "chapterUrl": "http://www.meetup.com/Girl-Develop-It-Burlington/#upcoming"
 };
 var quizJSON = {
